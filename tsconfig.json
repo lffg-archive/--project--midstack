@@ -1,0 +1,12 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "noEmit": true, // Rollup will built the TypeScript if needed.
+    "target": "es2015",
+    "module": "esnext",
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true
+  }
+}
